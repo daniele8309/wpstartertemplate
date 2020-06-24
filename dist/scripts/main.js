@@ -1,0 +1,1 @@
+!function(i){var n={slider:function(){i("#slide").slick({dots:!0,arrows:!1})}};i(document).ready(function(){n.slider()})}(jQuery);

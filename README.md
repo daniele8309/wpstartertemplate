@@ -1,29 +1,32 @@
-# README #
+# Wordpress Theme Starter Pack
 
-This README would normally document whatever steps are necessary to get your application up and running.
+A starter pack for create a new Wordpress Theme based on Bootstrap4 and Gulp
 
-### What is this repository for? ###
+## Installation
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Activate the theme and the plugins
+* Run `npm install` or `yarn install` for install libraries and dependencies
 
-### How do I get set up? ###
+## Compile CSS and Scripts
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* Run `gulp styles` for css.
+* Run `gulp scripts` for js.
+* Run `gulp icons` for iconfont.
+* Run `gulp` for watcher.
 
-### Contribution guidelines ###
+___
 
-* Writing tests
-* Code review
-* Other guidelines
+## Changelog
 
-### Who do I talk to? ###
+### 2018-08
 
-* Repo owner or admin
-* Other community or team contact
+* Update some libraries
+* Add a new gulpfile
+* Add a tempalte for iconfont
+* Edit some PHP code
+
+### 2017-09
+
+* Add TGM Plugin Activation 2.6.1
+* Update libraries
+* Update styles and scripts
