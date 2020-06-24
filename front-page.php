@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+<div class="container">
 	<section id="hero">
 		<div class="container">
 
@@ -13,6 +14,7 @@
 
 		</div>
 	</section>
+</div>
 
 	<?php get_template_part('part-loop') ?>
 
