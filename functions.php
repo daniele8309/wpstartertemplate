@@ -88,7 +88,7 @@ function wtsp_my_styles_method() {
 
 	wp_enqueue_style(
 		'fontawesome',
-        'https://use.fontawesome.com/releases/v5.12.0/css/all.css',
+    'https://use.fontawesome.com/releases/v5.12.0/css/all.css',
 		[ ],
 		'5.12.0'
 	);
@@ -113,6 +113,13 @@ function wtsp_my_styles_method() {
 		['slick-carousel'],
 		'1.9.0'
 	);
+
+  wp_enqueue_style(
+    'animate-css',
+    'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css',
+    [],
+    '4.0.0'
+  );
 
 	wp_enqueue_style(
 		'main',
