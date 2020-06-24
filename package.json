@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://andrearufo@github.com/andrearufo/wordpress-theme-starter-pack.git"
+    "url": "https://danielewebdesign@bitbucket.org/danielewebdesign/wordpress-template.git"
   },
-  "author": "andrearufo",
+  "author": "danieledanieli",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andrearufo/wordpress-theme-starter-pack/issues"
+    "url": "https://danielewebdesign@bitbucket.org/danielewebdesign/wordpress-template.git"
   },
-  "homepage": "https://github.com/andrearufo/wordpress-theme-starter-pack#readme",
+  "homepage": "https://bitbucket.org/danielewebdesign/wordpress-template/src/master/",
   "devDependencies": {
     "autoprefixer": "^9.6.5",
     "bootstrap": "^4.3.1",
