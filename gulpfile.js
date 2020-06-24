@@ -136,6 +136,6 @@ exports.watch = watch;
 exports.build = gulp.parallel(scripts, styles, icons);
 
 function start(){
-    serve();
+    watch();
 }
 exports.default = start;

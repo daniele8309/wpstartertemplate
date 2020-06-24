@@ -7,12 +7,12 @@
 
 	<?php wp_head() ?>
 
-	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri() ?>/images/favicons/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri() ?>/images/favicons/apple-icon-180x180.png">
 	<link rel="shortcut icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri() ?>/images/favicons/favicon-32x32.png">
 	<link rel="shortcut icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri() ?>/images/favicons/favicon-16x16.png">
-	<link rel="manifest" href="<?php echo get_template_directory_uri() ?>/images/favicons/site.webmanifest">
+	<link rel="manifest" href="<?php echo get_template_directory_uri() ?>/images/favicons/manifest">
 	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri() ?>/images/favicons/mstile-144x144.png">
+	<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri() ?>/images/favicons/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
 </head>
@@ -25,7 +25,7 @@
 				<div class="col-lg-1">
 
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-						<img src="<?php echo get_template_directory_uri() ?>/images/logo.svg" alt="<?php bloginfo('name'); ?>">
+						<img src="<?php echo get_template_directory_uri() ?>/images/logo.png" alt="<?php bloginfo('name'); ?>">
 					</a>
 
 				</div>
@@ -49,6 +49,3 @@
 
 		</div>
 	</header>
-
-	<main>
-		<div class="container">

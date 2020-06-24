@@ -1,7 +1,3 @@
-
-		</div>
-	</main>
-
 	<footer>
 		<div class="container">
 
